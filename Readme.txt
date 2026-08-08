@@ -162,6 +162,3 @@ Adan Abo Salok
 This project was developed for academic purposes as part of the SPL251 course at Ben-Gurion University.
 
 
-## 📄 License
-
-This project was developed for academic purposes as part of the SPL251 course at Ben-Gurion University.
