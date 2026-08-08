@@ -124,17 +124,21 @@ Assignment3/
 │   ├── target/                    # Maven build output
 │   └── src/
 │       └── main/java/bgu/spl/net/
+│           ├── api/               # Generic messaging protocol & connections interfaces
 │           ├── impl/stomp/        # StompServer, TPC & Reactor implementations
-│           └── srv/               # Connections, ConnectionHandler, protocol interfaces
+│           └── srv/                # Connections, ConnectionHandler implementations
 ├── client/
 │   ├── makefile
 │   ├── src/
 │   │   ├── ConnectionHandler.cpp
 │   │   ├── StompClient.cpp
 │   │   ├── StompProtocol.cpp
-│   │   ├── event.cpp
-│   │   └── echoClient.cpp
+│   │   └── event.cpp
 │   ├── include/
+│   │   ├── ConnectionHandler.h
+│   │   ├── StompProtocol.h
+│   │   ├── event.h
+│   │   └── json.hpp
 │   └── bin/                       # StompWCIClient (built executable)
 └── README.md
 ```
@@ -152,6 +156,11 @@ Team
 Renad Abu Shareb
 Adan Abo Salok 
 ---
+
+## 📄 License
+
+This project was developed for academic purposes as part of the SPL251 course at Ben-Gurion University.
+
 
 ## 📄 License
 
