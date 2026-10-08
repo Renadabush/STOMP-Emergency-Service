@@ -160,6 +160,3 @@ Assignment3/
 
 ---
 
-## 📄 License
-
-This project was developed for academic purposes as part of the SPL251 course at Ben-Gurion University.
